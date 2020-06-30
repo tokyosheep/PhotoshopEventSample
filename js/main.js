@@ -44,5 +44,10 @@ window.onload = () =>{
             removeEvent();
         }
     });
+
+    //persistence
+    //const persistence_on = new CSEvent("com.adobe.PhotoshopPersistent", "APPLICATION");
+    //persistence_on.extensionId = extensionId;
+    //csInterface.dispatchEvent(persistence_on);
 }
     
